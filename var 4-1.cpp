@@ -5,7 +5,6 @@
 #include <iomanip>
 
 int main() {
-    
     setlocale(LC_ALL, "RU");
     double a = 5.54, b = 3.93, y = 1.45, T1 = 288, T2 = 675;
     
@@ -19,7 +18,5 @@ int main() {
     std::cout << std::fixed << std::setprecision(6) << "а) " << nu1 << '\n'
     << "б) " << nu2 << '\n' << "в) " << nu3;
     
-    
     return 0;
-    
 }
