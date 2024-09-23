@@ -10,9 +10,9 @@ int main() {
     
     double K = (y - 1) / y;
     double nu1 = 1 - pow((1/b), K);
-    double nu2_above = T2 - T1;
-    double nu2_below = T2 + ((T2 - T1) / ((y - 1) * log(a)));
-    double nu2 = nu2_above / nu2_below;
+    double nu2Above = T2 - T1;
+    double nu2Below = T2 + ((T2 - T1) / ((y - 1) * log(a)));
+    double nu2 = nu2Above / nu2Below;
     double nu3 = 1 - K * (log(b) / (pow(b, K) - 1));
     
     std::cout << std::fixed << std::setprecision(6) << "а) " << nu1 << '\n'
